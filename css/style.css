@@ -11,7 +11,7 @@
   #phone-header img {
     width: 70% !important;
   }
-  #first {
+  #First {
     padding: 1rem 0 7rem 0;
   }
   .second {
@@ -67,39 +67,39 @@ a {
   text-decoration: none;
 }
 
-#first {
+#First {
   background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
   background-position: center;
   background-size: cover;
   padding: 1rem 0 8rem 0;
 }
-#first nav {
+#First nav {
   position: sticky;
   top: 20px;
 }
-#first nav .aas a {
+#First nav .aas a {
   margin-left: 15px;
   color: #FFF;
 }
-#first nav .aas i {
+#First nav .aas i {
   margin-left: 5px;
 }
-#first nav .counts {
+#First nav .counts {
   position: relative;
 }
-#first img {
+#First img {
   width: 100%;
 }
-#first #f-icons {
+#First #f-icons {
   cursor: pointer;
   color: #FFF;
   font-size: 22px;
   display: flex;
 }
-#first #f-icons i {
+#First #f-icons i {
   margin-left: 12px;
 }
-#first #f-icons span {
+#First #f-icons span {
   font-size: 10px;
   color: #000;
   background-color: #FFF;
@@ -157,47 +157,47 @@ a {
   height: 45px;
 }
 
-#thrid {
+#Thrid {
   margin-top: 6rem;
 }
-#thrid .t-top span {
+#Thrid .t-top span {
   color: #BD844C;
   font-size: 18px;
 }
-#thrid .t-top .bot {
+#Thrid .t-top .bot {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #010F1C;
 }
-#thrid .t-top .bot h1 {
+#Thrid .t-top .bot h1 {
   font-size: 44px;
 }
-#thrid .t-top .bot a {
+#Thrid .t-top .bot a {
   padding: 12px 30px;
   border: 1px solid rgba(184, 184, 184, 0.456);
   transition: 0.3s;
   color: #010F1C;
   font-size: 14px;
 }
-#thrid .t-top .bot a:hover {
+#Thrid .t-top .bot a:hover {
   background-color: #BD834C;
   border: 1px solid #BD834C;
   color: #FFF;
 }
-#thrid .t-bottom {
+#Thrid .t-bottom {
   margin-top: 40px;
 }
-#thrid .t-bottom .t-box {
+#Thrid .t-bottom .t-box {
   position: relative;
   overflow: hidden;
 }
-#thrid .t-bottom .t-box img {
+#Thrid .t-bottom .t-box img {
   width: 100%;
   z-index: -1;
   transition: 0.5s;
 }
-#thrid .t-bottom .t-box::before {
+#Thrid .t-bottom .t-box::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -207,14 +207,14 @@ a {
   background-color: rgba(55, 33, 6, 0.2470588235);
   z-index: 2;
 }
-#thrid .t-bottom .t-box:hover .letters {
+#Thrid .t-bottom .t-box:hover .letters {
   bottom: 15%;
 }
-#thrid .t-bottom .t-box:hover img {
+#Thrid .t-bottom .t-box:hover img {
   transform: scale(1.1);
   filter: brightness(0.65);
 }
-#thrid .t-bottom .letters {
+#Thrid .t-bottom .letters {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -227,7 +227,7 @@ a {
   transition: 0.5s;
   z-index: 4;
 }
-#thrid .t-bottom .letters .a-aft {
+#Thrid .t-bottom .letters .a-aft {
   color: #FFF;
   font-size: 24px;
   font-weight: bold;
@@ -237,7 +237,7 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
-#thrid .t-bottom .letters .a-aft::after {
+#Thrid .t-bottom .letters .a-aft::after {
   content: "";
   position: absolute;
   height: 1px;
@@ -247,22 +247,22 @@ a {
   left: 0;
   transition: 0.5s;
 }
-#thrid .t-bottom .letters .a-aft:hover::after {
+#Thrid .t-bottom .letters .a-aft:hover::after {
   width: 100%;
 }
-#thrid .t-bottom .letters span {
+#Thrid .t-bottom .letters span {
   font-size: 14px;
   margin-bottom: 15px;
 }
-#thrid .t-bottom .letters .view-btn {
+#Thrid .t-bottom .letters .view-btn {
   color: #FFF !important;
   position: relative;
 }
-#thrid .t-bottom .letters .view-btn i {
+#Thrid .t-bottom .letters .view-btn i {
   margin-left: 3px;
   transition: 0.3s;
 }
-#thrid .t-bottom .letters .view-btn::after {
+#Thrid .t-bottom .letters .view-btn::after {
   content: "";
   position: absolute;
   height: 1px;
@@ -272,102 +272,102 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
-#thrid .t-bottom .letters .view-btn:hover i {
+#Thrid .t-bottom .letters .view-btn:hover i {
   margin-left: 8px;
 }
 
-#four {
+#Four {
   margin-top: 5rem;
   margin-bottom: 4rem;
 }
-#four .f-box {
+#Four .f-box {
   text-align: center;
   padding: 0px 50px 40px;
   border: 1px solid #E6E7E8;
 }
-#four .f-box .box-t {
+#Four .f-box .box-t {
   padding-top: 20px;
 }
-#four .f-box .box-t img {
+#Four .f-box .box-t img {
   margin-bottom: 20px;
   text-align: center;
   height: 150px;
 }
-#four .f-box .box-b {
+#Four .f-box .box-b {
   margin-top: 15px;
 }
-#four .f-box h3 {
+#Four .f-box h3 {
   font-size: 26px;
   color: #010F1C;
   font-weight: 400;
   transition: 0.6s;
 }
-#four .f-box h3:hover {
+#Four .f-box h3:hover {
   color: #BD844C;
 }
-#four .f-box p {
+#Four .f-box p {
   margin: 0 20px 10px 20px;
   color: #55585B;
 }
-#four .f-box span {
+#Four .f-box span {
   font-size: 20px;
   color: #BD844C;
 }
 
-#five {
+#Five {
   background-color: #EAE4DE;
 }
-#five .t-top {
+#Five .t-top {
   margin-top: 4rem;
 }
-#five .t-top span {
+#Five .t-top span {
   color: #BD844C;
   font-size: 18px;
 }
-#five .t-top .bot {
+#Five .t-top .bot {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #010F1C;
 }
-#five .t-top .bot h1 {
+#Five .t-top .bot h1 {
   font-size: 44px;
 }
-#five .t-top .bot a {
+#Five .t-top .bot a {
   padding: 12px 30px;
   border: 1px solid rgba(184, 184, 184, 0.456);
   transition: 0.3s;
   color: #010F1C;
   font-size: 14px;
 }
-#five .t-top .bot a:hover {
+#Five .t-top .bot a:hover {
   background-color: #BD834C;
   border: 1px solid #BD834C;
   color: #FFF;
 }
-#five .boxes {
+#Five .boxes {
   margin: 25px 20px 0 20px;
 }
-#five .boxes img {
+#Five .boxes img {
   width: 100%;
   transition: 0.4s;
 }
-#five .boxes:hover .add-card {
+#Five .boxes:hover .add-card {
   opacity: 1;
   bottom: -3px;
 }
-#five .boxes:hover .card-icons {
+#Five .boxes:hover .card-icons {
   opacity: 1;
   right: 20px;
 }
-#five .boxes:hover img {
+#Five .boxes:hover img {
   transform: scale(1.2);
 }
-#five .box-top {
+#Five .box-top {
   position: relative;
   overflow: hidden;
 }
-#five .card-icons {
+#Five .card-icons {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -376,19 +376,19 @@ a {
   opacity: 0;
   transition: 0.4s;
 }
-#five .card-icons i {
+#Five .card-icons i {
   padding: 10px;
   margin-top: 10px;
   background-color: #FFF;
   border: 1px solid #E6E7E8;
   transition: 0.4s;
 }
-#five .card-icons i:hover {
+#Five .card-icons i:hover {
   color: #FFF;
   background-color: #010F1C;
   border: 1px solid #010F1C;
 }
-#five .add-card {
+#Five .add-card {
   position: absolute;
   transition: 0.4s;
   background-color: #010F1C;
@@ -400,30 +400,30 @@ a {
   padding: 8px 0;
   overflow: hidden;
 }
-#five .add-card a {
+#Five .add-card a {
   color: #FFF;
 }
-#five .box-bottom {
+#Five .box-bottom {
   display: flex;
   flex-direction: column;
 }
-#five .box-bottom span {
+#Five .box-bottom span {
   color: #55585B;
   font-size: 14px;
   margin-top: 15px;
 }
-#five .box-bottom a {
+#Five .box-bottom a {
   color: #010F1C;
   font-size: 20px;
   font-weight: 500;
 }
-#five .box-bottom .price {
+#Five .box-bottom .price {
   color: #010F1C;
   font-size: 16px;
   font-weight: bold;
   margin-top: 0;
 }
-#five .f-bottom {
+#Five .f-bottom {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
