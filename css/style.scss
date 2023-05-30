@@ -1,3 +1,6 @@
+@import "_responsive.scss";
+
+
 * {
     margin: 0;
     padding: 0;
@@ -17,48 +20,49 @@ a {
     nav {
         position: sticky;
         top: 20px;
+
+        .aas{
+            a {
+                margin-left: 15px;
+                color: #FFF;
+            }
+            i {
+                margin-left: 5px;
+            }
+            
+
+        }
+        .counts {
+            position: relative;
+        }
     }
-}
-
-#first img {
-    width: 100%;
-}
-
-.aas a {
-    margin-left: 15px;
-    color: #FFF;
-}
-
-.aas i {
-    margin-left: 5px;
-}
-
-#f-icons {
-    cursor: pointer;
-    color: #FFF;
-    font-size: 22px;
-    display: flex;
-
-    i {
-        margin-left: 12px;
-
+    img {
+        width: 100%;
     }
 
-    span {
-        font-size: 10px;
-        color: #000;
-        background-color: #FFF;
-        position: absolute;
-        top: -7px;
-        right: -10px;
-        padding: 3px 7px;
-        border-radius: 60px;
-        font-weight: 800;
+    #f-icons {
+        cursor: pointer;
+        color: #FFF;
+        font-size: 22px;
+        display: flex;
+    
+        i {
+            margin-left: 12px;
+    
+        }
+    
+        span {
+            font-size: 10px;
+            color: #000;
+            background-color: #FFF;
+            position: absolute;
+            top: -7px;
+            right: -10px;
+            padding: 3px 7px;
+            border-radius: 60px;
+            font-weight: 800;
+        }
     }
-}
-
-.counts {
-    position: relative;
 }
 
 .second {
@@ -83,31 +87,30 @@ a {
         border: 1px solid #000;
 
     }
-}
 
-.second-t {
-    width: 45%;
+    .second-t {
+        width: 45%;
 
-    h1 {
-        font-size: 100px;
-        color: #FFF;
+        h1 {
+            font-size: 100px;
+            color: #FFF;
+        }
     }
-}
-
-.svgs {
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
-    color: #FFF;
-    margin-top: 20px;
-
-    div {
+    .svgs {
+        width: 35%;
         display: flex;
-    }
-
-    h3 {
-        margin-left: 16px;
-        font-size: 18px;
+        justify-content: space-between;
+        color: #FFF;
+        margin-top: 20px;
+    
+        div {
+            display: flex;
+        }
+    
+        h3 {
+            margin-left: 16px;
+            font-size: 18px;
+        }
     }
 }
 
@@ -247,7 +250,7 @@ a {
                 content: '';
                 position: absolute;
                 height: 1px;
-                width: 28%;
+                width: 25%;
                 background-color: #FFF;
                 bottom: 0;
                 left: 50%;
@@ -313,10 +316,9 @@ a {
 
 #five {
     background-color: #EAE4DE;
-
+    
     .t-top {
         margin-top: 4rem;
-
         span {
 
             color: #BD844C;
@@ -352,12 +354,13 @@ a {
     }
 
     .boxes {
-        overflow: hidden;
-        margin-top: 25px;
-        // img{
-        //     transition: .4s;
-        // }
+        margin: 25px 20px 0 20px;
+        img{
+            width: 100%;
+            transition: .4s;
+        }
     }
+
     .boxes:hover .add-card {
         opacity: 1;
         bottom: -3px;
@@ -366,12 +369,13 @@ a {
 
     .boxes:hover .card-icons {
         opacity: 1;
-        right: 65px;
+        right: 20px;
 
     }
-    // .boxes:hover img{
-    //     transform: scale(1.2);
-    // }
+
+    .boxes:hover img{
+        transform: scale(1.2);
+    }
 
     .box-top {
         position: relative;
@@ -383,7 +387,7 @@ a {
         flex-direction: column;
         position: absolute;
         top: 10px;
-        right: 40px;
+        right: 0px;
         opacity: 0;
         transition: 0.4s;
 
@@ -409,9 +413,9 @@ a {
         opacity: 0;
         bottom: -22%;
         left: 0;
-        width: 85%;
+        width: 100%;
         text-align: center;
-        padding: 6px 0;
+        padding: 8px 0;
         overflow: hidden;
 
         a {
@@ -447,8 +451,14 @@ a {
         }
     }
 
-    .f-bottom{
+    .f-bottom {
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 50px;
     }
 }
+
+#phone-header {
+    display: none;
+}
+
